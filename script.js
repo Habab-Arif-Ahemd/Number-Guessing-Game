@@ -48,7 +48,7 @@ let name  = prompt("Enter name Player_1");
  const player = [
     {input: "player",value :'',"win":"lose",PlayerCredit:100},
     {input: "player2",value: Math.floor(Math.random()*100),"win":"lose",PlayerCredit:100},
-    {input: "player3",value: GuessedNumber,"win":"lose",PlayerCredit:100},
+    {input: "player3",value: Math.floor(Math.random()*100),"win":"lose",PlayerCredit:100},
     {input: "player4",value: Math.floor(Math.random() * 100),"win":"lose",PlayerCredit:100},
     {input: "player5",value: Math.floor(Math.random() * 100),"win":"lose",PlayerCredit:100},
 
